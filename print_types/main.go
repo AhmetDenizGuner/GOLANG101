@@ -38,6 +38,18 @@ func main() {
 		Kısatmalar büyük harfle URL gibi Url değil
 		Başka değişkenadında da büyük myHTTP gibi
 		for dögüsü indexi için i,j,k olabilir
+		değişken isminde türkçe karakter olabilir
 	*/
+
+	//shadowing -->
+
+	x := 5
+
+	{
+		x := 10
+		fmt.Println(x) //10
+	}
+
+	fmt.Println(x) //5
 
 }
