@@ -52,6 +52,10 @@ func main() {
 		}
 	}
 
+	//y burada tanımlı değil for için de int i=0 tanımlamak gibi,y alt tüm bloklarda geçerli ama
+	// if içindeki x eğer dışarda da olsaydı içerdeki shadowwing yapardı.
+	// AYNI satırda iki statment için ; kullanılrır. ctrl s yapınca fmt formater öbür satıra atar
+
 	if 3 < 5 && 4 > 2 {
 		fmt.Println("helloooo")
 	}

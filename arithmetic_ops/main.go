@@ -46,5 +46,6 @@ func main() {
 
 	fmt.Println(x)
 
-	fmt.Println(x++)
+	//fmt.Println(x++) , .\main.go:49:15: syntax error: unexpected ++, expecting comma or )
+	//println bir statement dir x++ da öyle GO'da bir satırda bir statement bulunur.
 }

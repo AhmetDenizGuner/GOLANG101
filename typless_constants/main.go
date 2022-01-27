@@ -23,9 +23,9 @@ func main() {
 	   	fmt.Printf("%T, %v\n", y, y)
 	   	fmt.Printf("%T, %v\n", x+y, x+y) */ //Hata vermez typless constant x'i gecici floata convert eder
 
-	var a = 3
+	/*var a = 3
 	var b = 5.2
-	fmt.Println(a + b)
+	fmt.Println(a + b) */ //ama bu hata verir, bu özellik sadece typless constantlara özel
 
 	const x = 3
 	const y = 5.6
@@ -36,5 +36,7 @@ func main() {
 	fmt.Printf("%T, %v\n", y, y)
 	fmt.Printf("%T, %v\n", z, z)
 	fmt.Printf("%T, %v\n", t, t)
+
+	//Sabitlerde de shadowing kavramı çalışır.
 
 }
